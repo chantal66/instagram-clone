@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-
-  GET '/'
-  root '/'
-
+  resources :pics
+  root 'pics#index'
 end
