@@ -36,7 +36,7 @@ class PicsController < ApplicationController
     @pic.destroy
     redirect_to root_path
   end
-
+## trying out git savy on sublime
   private
 
   def pic_params
