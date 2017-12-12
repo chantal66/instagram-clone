@@ -9,7 +9,7 @@ class PicsController < ApplicationController
   end
 
   def new
-    @pic = Pic.new
+    @pic = current_user.pics.build
   end
 
   def create
