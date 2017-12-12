@@ -3,5 +3,6 @@
 = render 'form'
 
 = link_to 'Cancel', pic_path
-= link_to 'Edit'. edit_pic_path
+= link_to 'Edit', edit_pic_path
+= link_to 'Delete', pic_path, method: :delete, data: { confirm: 'Are u Sure?' }
 
