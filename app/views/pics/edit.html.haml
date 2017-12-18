@@ -1,8 +1,8 @@
-%h1 Fix Pic!
-
-= render 'form'
-
-= link_to 'Cancel', pic_path
-= link_to 'Edit', edit_pic_path
-= link_to 'Delete', pic_path, method: :delete, data: { confirm: 'Are u Sure?' }
+#edit_page.col-md-8.col-md-offset-2
+  .row
+    .panel.panel-default
+      .panel-heading
+        %h1 Fix Pic
+      .panel-body
+        = render 'form'
 
